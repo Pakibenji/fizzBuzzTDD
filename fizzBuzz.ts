@@ -1,8 +1,7 @@
 export default function fizzBuzz(minNumber: number, maxNumber: number) {
   let result = "";
   for (; minNumber <= maxNumber; minNumber++) {
-    const minComparedNumber = compareNumbers(minNumber)
-    result += minComparedNumber
+    result += compareNumbers(minNumber);
   }
   return result;
 }
